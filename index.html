@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>welcome to Samrat Group </title>
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .features-icons-item img {
+      width: 140px;
+      height: 140px;
+    }
+  </style>
+</head>
+
+<body class="bg-white" onload="checkCookie()" ;>
+  <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light " aria-label="Main navigation">
+    <div class="container-fluid mx-5">
+      <a class="navbar-brand" href="#"
+        style="font-family: 'Zen Old Mincho', serif; color: purple;font-size: 25px;">SAMRAT</a>
+      <button class="navbar-toggler p-0 border-0" type="button" data-bs-toggle="offcanvas"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-3 text-capitalize">
+          <li class="nav-item  mx-1">
+            <a class="nav-link" href="#service">Our Services</a>
+          </li>
+          <li class="nav-item  mx-1">
+            <a class="nav-link" href="blog.html">Gallery</a>
+          </li>
+          <!--<li class="nav-item  mx-1">
+                <a class="nav-link" href="#group">Our Team</a>
+              </li>-->
+          <li class="nav-item  mx-1">
+            <a class="nav-link" href="#contact">Contact us</a>
+          </li>
+        </ul>
+        <div>
+          <button type="button" class="btn btn-success mx-2 py-2" data-toggle="modal">
+            Book Now
+          </button>
+        </div>
+        <br>
+      </div>
+    </div>
+  </nav>
+  <header>
+    <!--<video autoplay muted loop id="myVideo">
+        <source src="image/video1.mp4" type="video/mp4">
+      </video>--->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/a.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption ">
+            <h1> Events management System</h1>
+            <p>Sonu Kumar @ SAMRAT</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/f.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1> Events management System</h1>
+            <p>Sonu Kumar @ SAMRAT</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/m.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption">
+            <h1> Events management System</h1>
+            <p>Sonu Kumar @ SAMRAT</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <section class="first text-center" id="service">
+    <div class="listservice ">
+      <div class="row">
+        <div class="col-lg-4 ">
+          <div class="features-icons-item1 ">
+            <img src="image/c.jpg" alt="..." style="width: 300px; height: 180px;">
+            <br>
+            <h5>Decoration</h5>
+            <p class=" mx-5">Check The beautiful, functional as well as attractive decoration for your events</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item1 ">
+            <img src="image/r.jpg" alt="..." style="width: 300px; height: 180px;">
+            <br>
+            <h5>Food</h5>
+            <p class=" mx-5">we are providing Indian food vegiterian as well as non vegiterian also Western and chinise
+              withe good quantity</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="features-icons-item1 ">
+            <img src="image/i.jpg" alt="..." style="width: 300px; height: 180px;">
+            <br>
+            <h5>Entertainment</h5>
+            <p class=" mx-5">we will provide this fecilities and alos we have <span style="color: purple;">DJ And
+                Breakdance etc </span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="showcase text-center py-5 mx-2">
+    <div class="container-fluid p-0">
+      <div class="row py-5">
+        <div class="col-lg-6 order-lg-2 ">
+          <div class="features-icons-item2 ">
+            <img src="image/b.jpg" alt="..." width="600" height="400">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="features-icons-item1">
+            <br>
+            <h5 style="font-family: 'Zen Old Mincho', serif; color: red;font-size: 30px;">Decoration</h5>
+            <p class="lead mb-0">Our all decoration are both beautiful, functional as well as attractive. It includes
+              most of the arts and interior design.<br> we have Decoration for <span style="color: purple;">Lighting
+                ,Tent,Stage etc.</span></p>
+            <a href="decoration.html"><button type="button" class="btn btn-primary my-4" data-toggle="modal"> Book
+                Now</button></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="row py-5 mx-2">
+        <div class="col-lg-6">
+          <div class="features-icons-item2 ">
+            <img src="image/f.jpg" alt="..." width="600" height="400">
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="features-icons-item1">
+            <br>
+            <h5 style="font-family: 'Zen Old Mincho', serif; color: Green;font-size: 30px;">Our Food Services</h5>
+            <p class="lead mb-0">In this modern Time All Are providing Western and chinise food which are not so good
+              for our health but we are providing Indian food vegiterian as well as non vegiterian also Western and
+              chinise withe good quantity<br> we have drink service also but it has some strict rule you have to fallow
+              these rules</p>
+            <a href="food.html"><button type="button" class="btn btn-primary my-4" data-toggle="modal"> Book
+                Now</button></a>
+          </div>
+        </div>
+
+      </div>
+      <div class="row py-5 mx-2">
+        <div class="col-lg-6 order-lg-2 ">
+          <div class="features-icons-item2 ">
+            <img src="image/l.jpg" alt="..." width="600" height="400">
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1">
+          <div class="features-icons-item1">
+            <br>
+            <h5 style="font-family: 'Zen Old Mincho', serif; color:purple;font-size: 30px;">Entertainment<span
+                style="color: rebeccapurple;">(Music and dance)</span></h5>
+            <p class="lead mb-0">For Entertainment we have arrange some singer and dancer according to your pay we will
+              provide this fecilities and alos we have <span style="color: purple;">DJ And Breakdance etc </span></p>
+            <a href="entertainment.html"><button type="button" class="btn btn-primary my-4" data-toggle="modal"> Book
+                Now</button></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="person">
+    <div class="client text-center py-5">
+      <h2 style="font-family: 'Zen Old Mincho', serif;;">Our Happy Clients</h2>
+    </div>
+    <div class="row text-center mx-3">
+      <div class="col-lg-3  col-md-6 col-6 person1 ">
+        <div class="features-icons-item ">
+          <img src="image/3.jpg" alt="...">
+          <br>
+          <h5> person1</h5>
+          <p class="#">This theme will look great on any device, no matter the size!</p>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-6 person1 ">
+        <div class="features-icons-item ">
+          <img src="image/team-5.jpg" alt="...">
+          <br>
+          <h5> person1</h5>
+          <p class="#">Featuring the latest build of the new Bootstrap 5 framework!</p>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-6 person1 ">
+        <div class="features-icons-item ">
+          <img src="image/team-6.jpg" alt="...">
+          <br>
+          <h5> person1</h5>
+          <p class="#">Ready to use with your own content, or customize the source files!</p>
+        </div>
+      </div>
+      <div class="col-lg-3  col-md-6 col-6 person1 ">
+        <div class="features-icons-item ">
+          <img src="image/team-4.jpg" alt="...">
+          <br>
+          <h5> person1</h5>
+          <p class="#">This theme will look great on any device, no matter the size!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--
+<section class="service text-center ">
+    <div class="servicelist text-center my-5"><button type="button" class="btn btn-info mx-2 py-2"   data-toggle="modal" >
+        <h3>Our Other Services</h3>
+       </button></div>
+  <div class="services my-3">
+    <div class="container">
+        <div class="row justify-content-center text-white">
+          <div class="col-lg-3 col-md-6 col-6 bg-warning ">             
+                <a class="decoration" href="#">Decoration</a>  
+           </div>
+           <div class="col-lg-3 col-md-6 col-6 bg-info">
+            <a class="musicdance" href="#">Music and Dance</a>
+            </div>  
+          <div class="col-lg-3 col-md-6 col-6 bg-danger">
+                <a class="food" href="#">Food</a>
+           </div>
+          <div class="col-lg-3 col-md-6 col-6 bg-success">
+                <a class="musicdance" href="#">Music and Dance</a>
+           </div>
+          
+        </div>
+        </div>
+        </div>
+</section>-->
+  <section class="contact bg-secondary" id="contact">
+    <div class="temp mx-5 my-5">
+      <div class="contactus text-center py-5">
+        <h2 style="font-family: 'Zen Old Mincho', serif; color: purple;">Contact Us</h2>
+      </div>
+      <form class="row g-3">
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" placeholder="Please enter your Full Name">
+        </div>
+        <div class="col-md-4">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Please enter your Email">
+        </div>
+        <div class="col-md-4">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="12345678">
+        </div>
+        <div class="col-md-4">
+          <label for="inputphone" class="form-label">Contact Number</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="please Enter your Contact no">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Please enter your Address">
+        </div>
+        <div class="col-md-4">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-2">
+          <label for="inputCity" class="form-label">District</label>
+          <input type="text" class="form-control" id="inputdistrict">
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-md-2">
+          <label for="inputCity" class="form-label">State</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Country</label>
+          <input type="text" class="form-control" id="inputcountry">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary">contact us</button>
+        </div>
+      </form>
+    </div>
+  </section>
+  <hr>
+  <button class="link wobble-vertical-on-hover" onclick="topFunction()" id="myBtn" title="Go to top">Home</button>
+  <footer class=" text-center text-dark " id="group">
+    <div class="footer-basic">
+      <footer class="my-0">
+        <div class="content text-center">
+          <h5 style="font-family: 'Zen Old Mincho', serif; color: purple;font-size: 32px;">SAMRAT</h5>
+          <hr class="w-25 mx-auto" />
+
+        </div>
+        <div class="social"><a href="https://Smart tech.com/"><i class="icon ion-social-google"></i></a><a href="#"><i
+              class="icon ion-email"></i></a><a href="https://www.linkedin.com/in/sonu-kumar-1a642b200/"><i
+              class="icon ion-social-linkedin"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a><a
+            href="https://www.instagram.com/Smart tech/"><i class="icon ion-social-instagram"></i></a></div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Services</a></li>
+          <li class="list-inline-item"><a href="#">About</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <p class="copyright">Sonu Kumar (Nit Sikkim) @Samrat group © cse2019-23</p>
+      </footer>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"
+    integrity="sha512-ZvbjbJnytX9Sa03/AcbP/nh9K95tar4R0IAxTS2gh2ChiInefr1r7EpnVClpTWUEN7VarvEsH3quvkY1h0dAFg=="
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/cookies.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
