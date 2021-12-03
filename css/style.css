@@ -100,7 +100,7 @@ video*/
     }
 }
 .listservice{
-  padding-top:10% ;
+  padding-top:5% ;
 }
 @media (max-width: 840px) {
     .listservice{
@@ -112,7 +112,7 @@ video*/
   width: 200px;
 }
 .features-icons-item1{
-  padding-top: 15%;
+  padding-top: 5%;
 }
 @media (max-width: 840px) {
 .features-icons-item1{
