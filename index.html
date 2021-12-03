@@ -39,14 +39,29 @@
           <!--<li class="nav-item  mx-1">
                 <a class="nav-link" href="#group">Our Team</a>
               </li>-->
+              <li class="nav-item  mx-1">
+                <a class="nav-link" href="admin">Admin</a>
+              </li>
           <li class="nav-item  mx-1">
             <a class="nav-link" href="#contact">Contact us</a>
           </li>
         </ul>
         <div>
-          <button type="button" class="btn btn-success mx-2 py-2" data-toggle="modal">
-            Book Now
-          </button>
+          <a href="insert.php">
+            <button type="button" class="btn btn-success mx-2 py-2" data-target="#mymodel" data-toggle="modal">
+              Book Now
+            </button></a>
+          <div class="modal" id="mymodel">
+            <div class="modal-dialog">
+              <div class="model-content">
+                <div class="modal-header">
+                  <h4 class="text-center">Sign up</h4>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
         </div>
         <br>
       </div>
@@ -56,7 +71,7 @@
     <!--<video autoplay muted loop id="myVideo">
         <source src="image/video1.mp4" type="video/mp4">
       </video>--->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel py-2">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
           aria-current="true" aria-label="Slide 1"></button>
@@ -67,7 +82,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="image/a.jpg" class="d-block w-100" alt="...">
+          <img src="image/a.jpg" class="d-block w-100" alt="..." style="border-radius: 1%;">
           <div class="carousel-caption ">
             <h1> Events management System</h1>
             <p>Sonu Kumar @ SAMRAT</p>
@@ -102,6 +117,24 @@
   </header>
   <section class="first text-center" id="service">
     <div class="listservice ">
+      <div class="row" style="padding-bottom: 10%;">
+        <div class="col-lg-3">
+        </div>
+        <div class="col-lg-3 col-6">
+          <a href="#contact">
+            <button type="button" class="btn btn-success mx-2 py-2" data-target="#mymodel" data-toggle="modal">
+              contact us
+            </button></a>
+        </div>
+        <div class="col-lg-3 col-6 ">
+          <a href="Admin/user/register.php">
+            <button type="button" class="btn btn-success mx-2 py-2" data-target="#mymodel" data-toggle="modal">
+              Register
+            </button></a>
+        </div>
+        <div class="col-lg-3">
+        </div>
+      </div>
       <div class="row">
         <div class="col-lg-4 ">
           <div class="features-icons-item1 ">
